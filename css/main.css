@@ -136,3 +136,37 @@ footer {
 	height: 150px;
 }
 
+/*media query*/
+
+
+@media (max-width: 1045px) {
+	.fa-search {
+		display: none;
+	}
+}
+
+@media (max-width: 717px) {
+	
+	.main-feature img {
+		width: 80%;
+	}
+	.side-feature .buttonright {
+		display: block;
+		float: none;
+	}
+}
+
+@media (max-width: 700px) {
+	.topNav {
+		font-size: 12px;
+		margin: 0;
+		padding: 0;
+
+	}
+	.logo {
+		width: 40%;
+	}
+	.logo img {
+		width: 100%;
+	}
+}
